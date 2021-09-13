@@ -1,1 +1,0 @@
-https://artemsukach.github.io/rsschool-cv/cv
