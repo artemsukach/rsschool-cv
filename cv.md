@@ -50,3 +50,9 @@ function even_or_odd(number) {
   - [Basics of HTML, CSS and Web Design](https://ru.hexlet.io/courses/html)
   - [Fundamentals of modern layout](https://ru.hexlet.io/courses/layout-designer-basics)
   - [Introduction to web development](https://ru.hexlet.io/courses/intro_to_web_development)
+
+## Languages
+
+- English - A2 (B1 in process…)
+- Ukrainian - Native
+- Russian - Intermediate
