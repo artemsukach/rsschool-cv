@@ -28,3 +28,11 @@ I am a third-year student at KPI. Since recently I’ve been into Front-end. Eve
 - Git
 - Browser Developer Tools
 - Figma
+
+## Code example
+
+```javascript
+function even_or_odd(number) {
+  return number % 2 ? "Odd" : "Even";
+}
+```
