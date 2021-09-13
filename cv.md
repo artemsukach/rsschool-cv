@@ -39,8 +39,8 @@ function even_or_odd(number) {
 
 ## Education
 
-- "Vinnitsa Technical Lyceum", group of information and technical direction | 2015 - 2019
-- National Technical University of Ukraine“Igor Sikorsky Kyiv Polytechnic Institute”, FICT, computer engineering | 2019 - 2023
+- "Vinnitsa Technical Lyceum", group of information and technical direction, 2015 - 2019
+- National Technical University of Ukraine“Igor Sikorsky Kyiv Polytechnic Institute”, FICT, computer engineering, 2019 - 2023
 - HTML & CSS/Web design masterclass from ITEA/GoIT
 - [Exercise equipment HTML Academy](https://htmlacademy.ru/courses)
 - JavaScript Manual on learnjavascript.ru (in progress)
