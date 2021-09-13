@@ -19,3 +19,12 @@ I am a third-year student at KPI. Since recently I’ve been into Front-end. Eve
 - Persistence
 - Good communication
 - Creativity
+
+## Skills
+
+- HTML/CSS (Responsive Design)
+- JavaScript (Fundamentals, DOM, JSON)
+- Python(Basics)
+- Git
+- Browser Developer Tools
+- Figma
