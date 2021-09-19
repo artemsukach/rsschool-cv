@@ -101,3 +101,19 @@ body {
 	font-weight: 800;
 	margin: 0 0 55px;
 }
+
+.about-me {
+	background-color: #f9fbfd;
+	display: flex;
+	justify-content: center;
+	padding: 100px 0;
+}
+
+.about-me__inner {
+	max-width: 610px;
+	text-align: center;
+}
+
+.about-me__text {
+	color: #535e88;
+}
