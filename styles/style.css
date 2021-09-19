@@ -18,6 +18,7 @@
 
 * {
 	box-sizing: border-box;
+	color: #141c3a;
 }
 
 body {
@@ -67,4 +68,34 @@ body {
 
 .header {
 	border-bottom: 1px solid #e5ebf2;
+}
+
+.contacts__inner {
+	text-align: center;
+	margin: 100px 0;
+}
+
+.contacts__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin: 25px 0;
+}
+
+.contacts__list-item + .contacts__list-item {
+	margin-left: 20px;
+}
+
+.contacts__list-link {
+	color: #535e88;
+	font-size: 17px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 55px 0;
 }
