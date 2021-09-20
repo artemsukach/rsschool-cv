@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>CV Artem Sukach</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -13,29 +14,35 @@
       <div class="header__inner">
         <a href="#" class="logo"><img src="img/logo.svg" alt="logo"></a>
         <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Contacts</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">About Me</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Skills</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Code example</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Education</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Languages</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">CV</a>
-            </li>
-          </ul>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Contacts</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">About Me</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Skills</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Code example</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Education</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Languages</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">CV</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </div>
@@ -51,7 +58,8 @@
             <p class="contacts__list-text"><a class="contacts__list-link" href="https://t.me/Bitchach">@Bitchach</a></p>
           </li>
           <li class="contacts__list-item">
-            <img src="img/line.svg" alt="line">
+            <img src="img/line.svg" alt="line" class="line-vertical">
+            <img src="img/line-horizontal.svg" alt="line" class="line-horizontal">
           </li>
           <li class="contacts__list-item">
             <h4 class="contacts__list-title">E-mail</h4>
@@ -59,7 +67,8 @@
                 href="mailto:artemsukach.official@gmail.com">artemsukach.official@gmail.com</a></p>
           </li>
           <li class="contacts__list-item">
-            <img src="img/line.svg" alt="line">
+            <img src="img/line.svg" alt="line" class="line-vertical">
+            <img src="img/line-horizontal.svg" alt="line" class="line-horizontal">
           </li>
           <li class="contacts__list-item">
             <h4 class="contacts__list-title">Phone</h4>
@@ -176,39 +185,55 @@
       <h2 class="education__title title">Education</h2>
       <h3 class="education__subtitle">University</h3>
       <div class="education__inner">
-        <div class="education__item">
-          <h4 class="education__item-title">"Vinnitsa Technical Lyceum"</h4>
-          <p class="education__text">group of information and technical direction</p>
-          <p class="education__year">2015 - 2019</p>
-          <img src="img/circle-line-horizontal.svg" alt="">
+        <div class="wrapper">
+          <img src="img/circle-line-vertical.svg" alt="" class="line-logo-vertical">
+          <div class="education__item">
+            <h4 class="education__item-title">"Vinnitsa Technical Lyceum"</h4>
+            <p class="education__text">group of information and technical direction</p>
+            <p class="education__year">2015 - 2019</p>
+          </div>
+          <img src="img/circle-line-horizontal.svg" alt="" class="line-logo">
         </div>
-        <div class="education__item">
-          <h4 class="education__item-title">National Technical University of Ukraine <br>
-            “Igor Sikorsky Kyiv PolytechnicInstitute”</h4>
-          <p class="education__text">FICT, computer engineering</p>
-          <p class="education__year">2019 - 2023</p>
-          <img src="img/circle-line-horizontal.svg" alt="">
+        <div class="wrapper">
+          <img src="img/circle-line-vertical.svg" alt="" class="line-logo-vertical">
+          <div class="education__item">
+            <h4 class="education__item-title full">National Technical University of Ukraine <br>
+              “Igor Sikorsky Kyiv PolytechnicInstitute”</h4>
+            <h4 class="education__item-title short">“Igor Sikorsky Kyiv PolytechnicInstitute”</h4>
+            <p class="education__text">FICT, computer engineering</p>
+            <p class="education__year">2019 - 2023</p>
+          </div>
+          <img src="img/circle-line-horizontal.svg" alt="" class="line-logo">
         </div>
       </div>
       <h3 class="education__subtitle">Courses</h3>
       <div class="education__inner">
-        <div class="education__item">
-          <h4 class="education__item-title">HTML & CSS/Web design masterclass</h4>
-          <p class="education__text">ITEA/GoIT</p>
-          <p class="education__year">finished</p>
-          <img src="img/circle-line-horizontal.svg" alt="">
+        <div class="wrapper">
+          <img src="img/circle-line-vertical.svg" alt="" class="line-logo-vertical">
+          <div class="education__item">
+            <h4 class="education__item-title">HTML & CSS/Web design masterclass</h4>
+            <p class="education__text">ITEA/GoIT</p>
+            <p class="education__year">finished</p>
+          </div>
+          <img src="img/circle-line-horizontal.svg" alt="" class="line-logo">
         </div>
-        <div class="education__item">
-          <h4 class="education__item-title">Javascript/Front-End program</h4>
-          <p class="education__text">Rolling Scopes School</p>
-          <p class="education__year">in progress</p>
-          <img src="img/circle-line-horizontal.svg" alt="">
+        <div class="wrapper">
+          <img src="img/circle-line-vertical.svg" alt="" class="line-logo-vertical">
+          <div class="education__item">
+            <h4 class="education__item-title">Javascript/Front-End program</h4>
+            <p class="education__text">Rolling Scopes School</p>
+            <p class="education__year">in progress</p>
+          </div>
+          <img src="img/circle-line-horizontal.svg" alt="" class="line-logo">
         </div>
-        <div class="education__item">
-          <h4 class="education__item-title">Frontend Autumn 2021 program</h4>
-          <p class="education__text">EPAM UniversityUA</p>
-          <p class="education__year">in progress</p>
-          <img src="img/circle-line-horizontal.svg" alt="">
+        <div class="wrapper">
+          <img src="img/circle-line-vertical.svg" alt="" class="line-logo-vertical">
+          <div class="education__item">
+            <h4 class="education__item-title">Frontend Autumn 2021 program</h4>
+            <p class="education__text">EPAM UniversityUA</p>
+            <p class="education__year">in progress</p>
+          </div>
+          <img src="img/circle-line-horizontal.svg" alt="" class="line-logo">
         </div>
       </div>
     </div>
