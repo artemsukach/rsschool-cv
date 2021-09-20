@@ -119,6 +119,7 @@ body {
 }
 
 .title {
+	text-align: center;
 	font-size: 26px;
 	font-weight: 800;
 	line-height: 32px;
@@ -216,4 +217,40 @@ body {
 
 .soft-skills__subtitle {
 	padding-top: 10px;
+}
+
+.education {
+	background-color: #f9fbfd;
+}
+
+.education__inner {
+	display: flex;
+	justify-content: center;
+}
+
+.education__item-title {
+	margin: 0;
+	height: 60px;
+}
+
+.education__subtitle {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 800;
+	margin: 70px 0;
+}
+
+.education__item + .education__item {
+	margin-left: 20px;
+}
+
+.education__item-title {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.education__text {
+	color: #535e88;
+	font-size: 17px;
 }
