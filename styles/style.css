@@ -255,3 +255,13 @@ body {
 	color: #535e88;
 	font-size: 17px;
 }
+
+code {
+	font-size: 17px;
+}
+
+.code__inner {
+	margin: 50px 0;
+	background-color: #f9fbfd;
+	border-radius: 100px;
+}
