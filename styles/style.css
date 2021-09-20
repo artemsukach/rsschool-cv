@@ -265,3 +265,39 @@ code {
 	background-color: #f9fbfd;
 	border-radius: 100px;
 }
+
+.languages__logo {
+	width: 250px;
+}
+
+.languages__inner {
+	position: absolute;
+	padding-top: 50px;
+	text-align: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: none;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.languages__subtitle,
+.languages__text-lvl,
+.languages__text-description {
+	color: #f9fbfd;
+}
+
+.test {
+	left: 465px;
+	width: 250px;
+	padding: 50px 0;
+	position: relative;
+	text-align: center;
+}
+
+.test:hover .languages__inner {
+	display: block;
+}
